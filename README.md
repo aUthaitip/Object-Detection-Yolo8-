@@ -8,12 +8,14 @@ It highlights objects in video frames with bounding boxes and labels.
 📊 Multiple Objects – Supports detecting several objects in the same frame.
 💻 Cross-Platform – Works on macOS, Windows, or Linux with PyTorch support.
 🧠 Tech Stack
+
 Language: Python 3.14+
-Libraries:
+Libraries:  
 OpenCV – Capture webcam video and draw boxes
 Ultralytics YOLOv8 – Object detection
 Matplotlib – Visualization
 Framework: PyTorch (for YOLOv8)
+
 ⚙️ Installation & Run
 # Clone this repository
 git clone https://github.com/aUthaitip/Object-Detection-Yolo8-.git
@@ -32,21 +34,11 @@ pip install opencv-python ultralytics matplotlib
 
 # Run the application
 python3 object_detection.py
+
 ⚠️ Note:
 On macOS with M1/M2/M3 chips, you can run YOLOv8 on the MPS device by setting device='mps' when loading the model.
 🧩 Project Structure
 
-
-Object-Detection-Yolo8-/
-├── object_detection.py     # Main application
-├── yolov8n.pt              # Pretrained YOLOv8 model weights
-├── requirements.txt        # Python dependencies
-├── .venv/                  # Virtual environment (ignored in Git)
-└── README.md               # Project documentation
-
-
-
-📸 Screenshots
 Add screenshots of detected objects here (webcam or sample images)
 💡 Future Improvements
 🎥 Record detection video automatically
