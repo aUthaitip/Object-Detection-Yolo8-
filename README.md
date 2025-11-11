@@ -35,12 +35,17 @@ python3 object_detection.py
 ⚠️ Note:
 On macOS with M1/M2/M3 chips, you can run YOLOv8 on the MPS device by setting device='mps' when loading the model.
 🧩 Project Structure
+
+
 Object-Detection-Yolo8-/
 ├── object_detection.py     # Main application
 ├── yolov8n.pt              # Pretrained YOLOv8 model weights
 ├── requirements.txt        # Python dependencies
 ├── .venv/                  # Virtual environment (ignored in Git)
 └── README.md               # Project documentation
+
+
+
 📸 Screenshots
 Add screenshots of detected objects here (webcam or sample images)
 💡 Future Improvements
