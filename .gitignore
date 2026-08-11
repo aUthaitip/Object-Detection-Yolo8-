@@ -1,1 +1,7 @@
 .venv/
+__pycache__/
+saved_images/
+saved_videos/
+.DS_Store
+frontend/node_modules/
+frontend/dist/
