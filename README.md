@@ -30,10 +30,14 @@ source .venv/bin/activate   # macOS / Linux
 
 # Upgrade pip and install dependencies
 python3 -m pip install --upgrade pip
-pip install opencv-python ultralytics matplotlib
+pip install opencv-python ultralytics matplotlib flask
 
-# Run the application
+# Run Desktop OpenCV Mode (แบบเดิม)
 python3 object_detection.py
+
+# Run Web Application Mode (เปิดใช้งานผ่านเบราว์เซอร์)
+python3 app.py
+# จากนั้นเปิดลิงก์ http://127.0.0.1:5001 ในเว็บเบราว์เซอร์ของคุณ
 
 ⚠️ Note:
 On macOS with M1/M2/M3 chips, you can run YOLOv8 on the MPS device by setting device='mps' when loading the model.
